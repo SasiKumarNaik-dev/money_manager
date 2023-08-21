@@ -1,0 +1,71 @@
+/* Write your CSS here */
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+.uo-list {
+  width: 100%;
+  background-color: gray;
+  font-family: 'Roboto';
+}
+.list {
+  display: flex;
+  background-color: red;
+  padding: 10px;
+  width: 28%;
+  border-radius: 10px;
+  align-items: center;
+  padding-left: 20px;
+}
+.img-styles {
+  height: 50px;
+  width: 50px;
+}
+.content {
+  padding-left: 20px;
+}
+.output {
+  font-size: 23px;
+  margin-top: -5px;
+  color: #334155;
+  font-weight: 500;
+}
+
+.bl-bg {
+  background-color: #ecfccb;
+  border: 1px #84cc16 solid;
+}
+.in-bg {
+  background-color: #cffafe;
+  border: 1px #06b6d4 solid;
+}
+.ex-bg {
+  background-color: #ede9fe;
+  border: 1px #7c3aed solid;
+}
+
+.para {
+  color: #7e858e;
+}
+
+@media screen and (max-width: 576px) {
+  .list {
+    width: 100%;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  .output {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .list {
+    width: 32%;
+    padding: 5px;
+  }
+  .output {
+    font-size: 18px;
+  }
+  .para {
+    font-size: 14px;
+  }
+}

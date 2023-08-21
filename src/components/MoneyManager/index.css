@@ -1,0 +1,205 @@
+/* Write your CSS here */
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+.app-div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: 'Roboto';
+  align-items: center;
+}
+.info-div {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding-left: 20px;
+  display: flex;
+  padding: 60px;
+  flex-direction: column;
+  height: 20vh;
+  border-radius: 20px;
+  justify-content: center;
+  width: 70%;
+}
+.name {
+  font-size: 40px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.description {
+  font-size: 20px;
+  color: #475569;
+}
+.app-name {
+  color: #0b69ff;
+}
+.money-div {
+  width: 70%;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.bottom-div {
+  width: 70%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-div {
+  border: 1px #cbd5e1 solid;
+  border-radius: 15px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-bottom: 15px;
+  margin-top: 8px;
+  padding: 10px;
+  border: 1px #cbd5e1 solid;
+}
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7e858e;
+}
+.add-btn {
+  align-self: flex-start;
+  padding: 13px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 60px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+.form-head {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #334155;
+  font-weight: 500;
+}
+.history-div {
+  width: 55%;
+  border: 1px #cbd5e1 solid;
+  padding: 40px;
+  border-radius: 15px;
+}
+.t-head-div {
+  border: 1px #cbd5e1 solid;
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+.in-div {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.dummy {
+  margin-left: auto;
+}
+.history-head {
+  font-size: 30px;
+  color: #334155;
+  font-weight: 500;
+}
+.t-head {
+  font-weight: 500;
+  color: #334155;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+  .info-div {
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    width: 95%;
+    height: 20vh;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .money-div {
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-between;
+    height: 340px;
+  }
+  .bottom-div {
+    flex-direction: column;
+    width: 95%;
+  }
+  .transaction-div {
+    width: 100%;
+  }
+  .form-head {
+    font-size: 23px;
+  }
+  .history-div {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .history-head {
+    font-size: 23px;
+  }
+  .t-head-div {
+    padding-right: 30px;
+  }
+  .t-head {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .name {
+    font-size: 35px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .transaction-div {
+    width: 45%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .form-head {
+    font-size: 22px;
+  }
+  .history-div {
+    width: 50%;
+    padding: 15px;
+  }
+  .history-head {
+    font-size: 22px;
+  }
+  .t-head-div {
+    padding-right: 20px;
+  }
+  .t-head {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .t-head {
+    font-size: 11px;
+  }
+}
